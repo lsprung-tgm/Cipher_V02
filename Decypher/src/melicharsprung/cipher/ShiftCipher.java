@@ -4,6 +4,7 @@ public class ShiftCipher extends MonoalphabeticCipher{
 
 	public ShiftCipher(int value) {
 		super();
+		setShiftAmmount(value);
 	}
 	
 	/**

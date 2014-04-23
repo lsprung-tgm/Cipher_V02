@@ -3,7 +3,7 @@ package melicharsprung.cipher;
 public class KeywordCipher extends MonoalphabeticCipher {
 
 	public KeywordCipher(String keyword) {
-		
+		setKeyword(keyword);
 	}
 	/**
 	 * Der KeywordCipher funktioniert so:
