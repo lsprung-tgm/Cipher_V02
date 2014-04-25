@@ -1,7 +1,7 @@
 package melicharsprung.cipher;
 
 public class KeywordCipher extends MonoalphabeticCipher {
-
+	public String codewordal = "";
 	public KeywordCipher(String keyword) {
 		setKeyword(keyword);
 	}
@@ -17,7 +17,7 @@ public class KeywordCipher extends MonoalphabeticCipher {
 	 * @param keyword
 	 */
 	public void setKeyword(String keyword) {
-		String codewordal = keyword.toLowerCase();
+		codewordal = keyword.toLowerCase();
 		for(char i = 97; i < 122; i++){
 			if(codewordal.contains(i+"")); else {
 				codewordal+=i;
